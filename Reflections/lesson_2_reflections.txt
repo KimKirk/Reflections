@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+you tell Git that you want it to track the files in that folder. you need to initialize a repository because git will not track the files until you tell it to.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+it allows you to host the files you may wish to commit in the future. you can decide to commit them or not so you have time to make other changes as needed to the files in the staging area
