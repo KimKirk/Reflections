@@ -4,3 +4,10 @@ you tell Git that you want it to track the files in that folder. you need to ini
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 it allows you to host the files you may wish to commit in the future. you can decide to commit them or not so you have time to make other changes as needed to the files in the staging area
+
+How can you use the staging area to make sure you have one commit per logical change?
+you add files you wish to commit to the staging area. one at a time you commit each file to the repository.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when you wish to experiment with a new feature and not add it to the master file
+branches help you by allowing you to have another copy of the master file but you don't change the master file if you don't want to
