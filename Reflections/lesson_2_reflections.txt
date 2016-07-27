@@ -11,3 +11,13 @@ you add files you wish to commit to the staging area. one at a time you commit e
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 when you wish to experiment with a new feature and not add it to the master file
 branches help you by allowing you to have another copy of the master file but you don't change the master file if you don't want to
+
+How do the diagrams help you visualize the branch structure?
+it's easier to see what branch you are on and any branches that are unreachable
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+you merge the changes in one branch with the changes in another branch by looking at the parent file to see what should stay and what should go. it's easier to see the branching and commits when it's in diagram form.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+automatic merging makes it easy to merge versions
+manual merging gives more fine grained merging of file versions
